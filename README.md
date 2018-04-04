@@ -5,5 +5,5 @@
 ### 日志工具：log4j2
 ### 构建工具：maven
 
-#### URL格式：localhost:8080/?start={}&end={}
+#### URL格式：localhost:8080/wl/?start={}&end={}
 ##### 采用默认字典:dictionary.txt
