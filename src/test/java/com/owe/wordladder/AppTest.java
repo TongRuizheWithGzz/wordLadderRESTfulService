@@ -1,5 +1,6 @@
 package com.owe.wordladder;
 
+import com.owe.wordladder.utils.WordLadder;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
