@@ -1,4 +1,4 @@
-package com.owe.wordladder;
+package com.owe.wordladder.utils;
 
 
 import java.util.*;
@@ -76,6 +76,20 @@ public class WordLadder {
             }
         }
         return null;
+    }
+
+    public String getPath() {
+        String result = "";
+        Vector<String> re = BFS();
+        if (re == null)
+            return "No path found";
+        else {
+            for (String word : re) {
+                result += re;
+                result += " ";
+            }
+            return result;
+        }
     }
 
     private Vector<String> getPath(String end) {
